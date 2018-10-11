@@ -1,0 +1,19 @@
+/* style by type */
+p {
+	color: green;
+}
+/* style by type */
+h2 {
+	color: red;
+}
+/* style by class*/
+#new-black .black {
+	color: black;
+}
+/* style by id*/
+#blue {
+	color: blue;
+}
+h3, h4 {
+	color: yellow;
+}
