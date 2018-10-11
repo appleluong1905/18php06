@@ -1,0 +1,31 @@
+#container {
+	width: 800px;
+	margin: 0 auto;
+}
+header {
+	height: 150px;
+	border: 2px dashed gray;
+	text-align: center;
+	line-height: 150px;
+}
+#logo {
+	width:350px;
+	float: left;
+	border-right: 2px solid green;
+}
+#slogan {
+	width: 400px;
+	float: left;
+}
+section {
+	height: 300px;
+	border: 2px solid green;
+	text-align: center;
+	line-height: 300px;
+}
+footer {
+	height: 200px;
+	border: 2px solid green;
+	text-align: center;
+	line-height: 200px;
+}
