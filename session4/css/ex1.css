@@ -1,0 +1,15 @@
+#demo {
+	border: 2px solid green;
+	margin: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+/*	border-bottom: 10px dotted red; */
+	height: 300px;
+	width: 400px;
+	border-radius: 10px;
+	box-shadow: 3px 4px 3px gray;
+	/*background-color: green;*/
+	background-image: linear-gradient(green, yellow);
+}

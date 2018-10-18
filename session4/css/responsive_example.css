@@ -1,0 +1,28 @@
+#containter{
+	width: 90%;
+	margin: 0 auto;
+	border: 2px solid green;
+	height: 500px;
+}
+.product1, .product2, .product3 {
+	width: 33%;
+	height: 100px;
+	border:1px solid green;
+	float: left;
+	text-align: center;
+	line-height: 100px;
+}
+@media screen and (max-width: 768px) {
+	.product1, .product2 {
+		width: 49.7%;
+	}
+	.product3 {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.product1, .product2, .product3 {
+		width: 100%;
+	}
+}

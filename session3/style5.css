@@ -1,0 +1,22 @@
+#container {
+	width: 800px;
+	margin: 0 auto;
+}
+header {
+	height: 150px;
+	border: 2px dashed gray;
+	text-align: center;
+	line-height: 150px;
+}
+section {
+	height: 300px;
+	border: 2px solid green;
+	text-align: center;
+	line-height: 300px;
+}
+footer {
+	height: 200px;
+	border: 2px solid green;
+	text-align: center;
+	line-height: 200px;
+}

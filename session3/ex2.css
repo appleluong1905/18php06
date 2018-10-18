@@ -1,0 +1,10 @@
+#left{
+	width: 300px;
+	border: 2px solid green;
+	float: left;
+}
+#right{
+	width: 600px;
+	border: 2px solid green;
+	float: left;
+}
