@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form - session 6</title>
+</head>
+<body>
+	<h1>Form register</h1>
+	<form name="RegisterForm" action="form.html" method="post">
+		<p>Name:
+			<input type="text" name="name" placeholder="Please input your name">
+		</p>
+		<p>Username:
+			<input type="text" name="username" maxlength="10">
+		</p>
+		<p>Email:
+			<input type="text" name="email" placeholder="example@gmail.com">
+		</p>
+		<p>Password:
+			<input type="password" name="password">
+		</p>
+		<p>My ID:
+			<input type="hidden" name="myId">
+		</p>
+		<p>Gender:
+			<input type="radio" name="gender" value="male"> Male
+			<input type="radio" name="gender" value="female" checked> Female
+			<input type="radio" name="gender" value="other"> Other
+		</p>
+		<p>Faviourite:
+			<input type="checkbox" name="football" checked>Football
+			<input type="checkbox" name="film">Film
+			<input type="checkbox" name="shopping">Shopping
+		</p>
+		<p>City:
+			<select name="city">
+				<option value="hanoi">Ha Noi</option>
+				<option value="hochiminh">Ho Chi Minh</option>
+				<option value="danang" selected>Da Nang</option>
+			</select>
+		</p>
+		<p>Description:
+			<textarea rows="10" cols="50" name="description" placeholder="How about you?"></textarea>
+		</p>
+		<p>Avatar:
+			<input type="file" name="avatar">
+		</p>
+		<p>
+			<input type="submit" name="register" value="Register">
+		</p>
+		<p>
+			<input type="button" name="register_button" value="Register">
+		</p>
+		<p>
+			<input type="reset" name="reset" value="Reset">
+		</p>
+		<p>
+			<input type="image" src="music.png">
+		</p>
+	</form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+ul li:nth-child(2){
+	list-style-type: square;
+}
+/*ul li {
+	list-style-image: url('music.png');
+}*/
+ul li.php06{
+	list-style-type: circle;
+}
+ol li {
+	list-style-type: decimal-leading-zero;
+}
+a:visited{
+	color: green;
+}
+a:link{
+	color: red;
+}
+a:hover{
+	color: yellow;
+}
+a{
+	text-decoration: none;
+}
+#question_1, #question_2 {
+	height: 600px;
+}
