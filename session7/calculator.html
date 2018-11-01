@@ -10,13 +10,13 @@
 	<div class="calculator_box">
 		<div class="screen">
 			<div class="input_field">
-				<p id="input_field"></p>
+				<p id="input_field">0</p>
 			</div>
 		</div>
 		<div class="buttons">
 			<div class="row">
 				<div class="button">
-					<p>AC</p>
+					<p onclick="resetCal()">AC</p>
 				</div>
 				<div class="button">
 					<p>+/-</p>
@@ -25,60 +25,60 @@
 					<p>%</p>
 				</div>
 				<div class="last_button">
-					<p>/</p>
+					<p onclick="addChar('/')">/</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="button">
-					<p>7</p>
+					<p onclick="addChar('7')">7</p>
 				</div>
 				<div class="button">
-					<p>8</p>
+					<p onclick="addChar('8')">8</p>
 				</div>
 				<div class="button">
-					<p>9</p>
+					<p onclick="addChar('9')">9</p>
 				</div>
 				<div class="last_button">
-					<p>X</p>
+					<p onclick="addChar('*')">X</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="button">
-					<p>4</p>
+					<p onclick="addChar('4')">4</p>
 				</div>
 				<div class="button">
-					<p>5</p>
+					<p onclick="addChar('5')">5</p>
 				</div>
 				<div class="button">
-					<p>6</p>
+					<p onclick="addChar('6')">6</p>
 				</div>
 				<div class="last_button">
-					<p>-</p>
+					<p onclick="addChar('-')">-</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="button">
-					<p>1</p>
+					<p onclick="addChar('1')">1</p>
 				</div>
 				<div class="button">
-					<p>2</p>
+					<p onclick="addChar('2')">2</p>
 				</div>
 				<div class="button">
-					<p>3</p>
+					<p onclick="addChar('3')">3</p>
 				</div>
 				<div class="last_button">
-					<p>+</p>
+					<p onclick="addChar('+')">+</p>
 				</div>
 			</div>
 			<div class="last_row">
 				<div class="button button_zero">
-					<p>0</p>
+					<p onclick="addChar('0')">0</p>
 				</div>
 				<div class="button">
-					<p>.</p>
+					<p onclick="addChar('.')">.</p>
 				</div>
 				<div class="last_button">
-					<p>=</p>
+					<p onclick="calculatorX()">=</p>
 				</div>
 			</div>
 		</div>
