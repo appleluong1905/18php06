@@ -42,3 +42,18 @@ console.log(str.replace('PHP06', 'SDC'));
 console.log(str.toUpperCase());
 //Chuyen mot chuoi thanh viet thuong
 console.log(str.toLowerCase());
+var _Position = str.indexOf(' ');
+console.log(_Position);
+
+var myName = 'Luong Hoai Canh';
+var space1 = myName.indexOf(' ');
+var myFirstName = myName.slice(0, space1);
+console.log(myFirstName);
+
+var numberNinMyName = 0;
+while(myName.indexOf('n') != -1){
+	var tmpName = myName;
+	numberNinMyName++;
+	myName = tmpName.slice(tmpName.indexOf('n') + 1, tmpName.length);
+}
+console.log(numberNinMyName);

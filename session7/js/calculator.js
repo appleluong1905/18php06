@@ -1,6 +1,6 @@
 var result = '';
 function addChar(char){
-	result+=char;
+	result = result + char;
 	document.getElementById('input_field').innerHTML = result;
 }
 function resetCal(){
