@@ -10,6 +10,12 @@
 	</style>
 </head>
 <body>
+	<h1>Search text</h1>
+	<form name="SearchText">
+		<p>Name:<input type="text" name="name" id="name"></p>
+		<p>Keyword:<input type="text" name="keyword" id="keyword" onkeyup ="searchText()"></p>
+		<p><input type="button" name="search" id="search" value="Search" onclick="searchText()"></p>
+	</form>
 	<div id="demo"></div>
 	<script type="text/javascript" src='js/example1.js'></script>
 </body>
